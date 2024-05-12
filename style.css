@@ -85,6 +85,14 @@ a:hover {
 }
 
 
+/*
+***********************************************************************
+Úvodní stránka
+***********************************************************************
+*/
+
+
+
 .page__menu {
   margin: 5%;
   display: grid;
@@ -117,6 +125,41 @@ a:hover {
   box-shadow: 0px 0px 2px 2px rgb(0 0 0 / 20%);
 }
 
-.nadpis {
 
+
+
+/*
+***********************************************************************
+RECEPTY
+***********************************************************************
+*/
+
+.recipe {
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 10% 30% 60%;
+gap: 5%;
+}
+
+.recipe__title {
+  font-size: 40px;
+  text-align: center;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.recipe__img img {
+  width: 75%;
+  margin: auto 25%;
+  border-radius: 10%;
+}
+
+.recipe-ingredients {
+  margin: auto 0;
+}
+
+.recipe-steps {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  padding: 5% 10%;
 }
