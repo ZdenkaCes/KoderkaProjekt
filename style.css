@@ -163,3 +163,32 @@ gap: 5%;
   grid-column-end: 3;
   padding: 5% 10%;
 }
+
+
+/*
+***********************************************************************
+Články
+***********************************************************************
+*/
+
+.article__title {
+text-align: center;
+font-size: 40px;
+}
+
+.article__img--prvni img {
+width: 20%;
+float: left;
+margin: 2%;
+}
+
+.article__img--druhy img {
+  width: 20%;
+  float: right;
+  margin: 2%;
+  }
+
+.article {
+  margin: 5%;
+  text-align: justify;
+}
