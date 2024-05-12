@@ -1,38 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bezpekárna</title>
-
-    <link rel="stylesheet" href="style.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap" rel="stylesheet">
-
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&display=swap" rel="stylesheet">
-
-</head>
-<body>
-    
-    <header class="title">
-        <h1>Bezpekárna</h1>
-    </header>
-
-    <nav class="menu">
-        <div class="menu__tabs">
-            <button class="tabs">Domů</button>
-            <button class="tabs">Recepty</button>
-            <button class="tabs">Články</button>
-        </div>        
-    </nav>
-
-    <section class="page">
-        <main>
+---
+layout: hlavni_sablona.njk
+title: Bezpekárna
+---
            
             <section class="page__menu">
 
@@ -40,20 +9,20 @@
                         <h2>Recepty</h2>
                     </div>
 
-                    <div class="button">
-                        <img src="pictures/makronky.jpg" alt="Malinové makronky">
+                    <a href="/malinove_makronky/" class="button">
+                        <img src="/images/makronky.jpg" alt="Malinové makronky">
                         <p>Malinové makronky</p>
-                    </div>
+                    </a>
 
-                    <div class="button">
-                        <img src="pictures/Housticky.jpg" alt="Kynuté houstičky">
+                    <a href="/kynute_housticky/" class="button">
+                        <img src="/images/Housticky.jpg" alt="Kynuté houstičky">
                         <p>Kynuté houstičky</p>
-                    </div>
+                    </a>
 
-                    <div class="button">
-                        <img src="pictures/arrow.jpg" alt="šipka">
+                    <a href="/dalsi_recepty/" class="button">
+                        <img src="/images/arrow.jpg" alt="šipka">
                         <p>Další recepty</p>
-                    </div>
+                    </a>
 
             </section>
 
@@ -63,30 +32,20 @@
                         <h2>Články</h2>
                     </div>
 
-                    <div class="button">
-                        <img src="pictures/lepek.jpg" alt="Mouka">
+                    <a href="/lepek/" class="button">
+                        <img src="/images/lepek.jpg" alt="Mouka">
                         <p>Pár slov o lepku</p>
-                    </div>
+                    </a>
 
-                    <div class="button">
-                        <img src="pictures/pohanka.jpg" alt="Pohanka">
+                    <a href="/pohanka/" class="button">
+                        <img src="/images/pohanka.jpg" alt="Pohanka">
                         <p>Pohanka</p>
-                    </div>
+                    </a>
 
-                    <div class="button">
-                        <img src="pictures/arrow.jpg" alt="šipka">
+                    <a href="/dalsi_clanky/" class="button">
+                        <img src="/images/arrow.jpg" alt="šipka">
                         <p>Další články</p>  
-                    </div>
+                    </a>
 
             </section>
 
-        </main>
-    </section>  
-
-
-    <footer class="footer">
-        <p>© Zdenka Češpírová, 2024</p>
-    </footer>
-
-</body>
-</html>

@@ -1,38 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bezpekárna</title>
-
-    <link rel="stylesheet" href="style.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap" rel="stylesheet">
-
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&display=swap" rel="stylesheet">
-
-</head>
-<body>
-    
-    <header class="title">
-        <h1>Bezpekárna</h1>
-    </header>
-
-    <nav class="menu">
-        <div class="menu__tabs">
-            <button class="tabs">Domů</button>
-            <button class="tabs">Recepty</button>
-            <button class="tabs">Články</button>
-        </div>        
-    </nav>
-
-    <section class="page">
-        <main>
+---
+layout: hlavni_sablona.njk
+title: Bezpekárna
+---
            
            <section class="article">
 
@@ -41,7 +10,7 @@
             </h2>
 
             <div class="article__img--prvni">
-            <img src="pictures/lepek.jpg" alt="lepek">
+            <img src="/images/lepek.jpg" alt="lepek">
             </div>
 
             <div class="article__text">
@@ -67,7 +36,7 @@
             </div>    
 
             <div class="article__img--druhy">
-                <img src="pictures/lepek-obili.jpg" alt="lepek-obilí">
+                <img src="/images/lepek-obili.jpg" alt="lepek-obilí">
             </div>
 
             <div class="article__text">
@@ -94,14 +63,4 @@
             </div>
 
            </section>
-
-        </main>
-    </section>  
-
-
-    <footer class="footer">
-        <p>© Zdenka Češpírová, 2024</p>
-    </footer>
-
-</body>
-</html>
+        
