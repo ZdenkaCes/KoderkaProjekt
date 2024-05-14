@@ -34,6 +34,26 @@ html {
     color: #1b1725;
   }
 
+  a :focus {
+    none;
+    color: #1b1725;
+  }
+
+  a :active {
+    none;
+    color: #1b1725;
+  }
+
+  a :link {
+    none;
+    color: #1b1725;
+  }
+
+  a: visited {
+    none;
+    color: #1b1725;
+  }
+
 .title {
   padding-top: 5%;
   text-align: center;
